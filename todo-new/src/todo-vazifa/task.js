@@ -34,7 +34,8 @@ function Task({ todo, onChange, onDelete }) {
           }}
         />
         <Buttonwrapper onClick={() => setIsEddit(false)}>Save</Buttonwrapper>
-      </>
+      </
+        >
     );
   } else {
     todoContent = (
@@ -60,7 +61,8 @@ height:30px;
 border: 1px solid ${props=> props.$delete ? 'blue':'blueviolet'} ;
 border-radius: 5px;
 color:white;
-background-color:${props=> props.$delete? 'red':"blueviolet"};`
+background-color:${props=> props.$delete? 'red':"blueviolet"};
+cursor:pointer;`
 
 const Inputwrapper=styled.div`
 display:flex;

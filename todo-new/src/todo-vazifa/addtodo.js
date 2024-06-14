@@ -37,5 +37,6 @@ color: white;
 background-color: blueviolet;
 width:40px;
 height:30px;
-border:1px solid blue`
+border:1px solid blue;`
+
 export default AddTodo;
